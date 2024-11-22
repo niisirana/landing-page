@@ -202,53 +202,8 @@ li {
 @media only screen and (max-width: 600px) {
     .images {
         flex-wrap: wrap;
-        gap: 16px; /* Adjust spacing for smaller screens */
     }
-
     .hero {
         flex-wrap: wrap;
-        flex-direction: column; /* Stack content for mobile */
-        gap: 16px;
-    }
-
-    .hero-content {
-        width: 100%; /* Take full width on small screens */
-        text-align: center; /* Center-align text for better readability */
-    }
-
-    .hero-title {
-        font-size: 36px; /* Reduce font size for better fit */
-    }
-
-    .hero-subtitle {
-        font-size: 16px;
-    }
-
-    .hero-img {
-        width: 300px; /* Adjust image size */
-        height: auto;
-    }
-
-    .nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 16px; /* Add space between logo and links */
-    }
-
-    ul {
-        flex-direction: column;
-        gap: 8px; /* Reduce gap between links */
-    }
-
-    .reg-container {
-        flex-direction: column;
-        gap: 16px; /* Stack content for better layout */
-        width: 100%;
-        padding: 16px;
-    }
-
-    .sign-up {
-        width: 100%; /* Full-width button for mobile */
     }
 }
-
